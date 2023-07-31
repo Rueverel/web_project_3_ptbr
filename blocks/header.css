@@ -1,0 +1,166 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 270px;
+    padding-left: 505px;
+    padding-right: 505px;
+    padding-top: 34px;
+}
+
+.header__title {
+    width: 793px;
+    padding-left: 243px;
+    padding-right: 243px;
+    padding-top: 90px;
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF; /* PASSA PARA OUTRO CSS??*/
+}
+
+.header__subtitle {
+    width: 720px;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 32px;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF; /* PASSA PARA OUTRO CSS??*/
+}
+
+.header__image {
+    width: 984px;
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-top: 64px;
+    filter: grayscale(1);
+}
+
+@media (min-width: 768px)  and (max-width: 1279px) {
+
+ 
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .logo {
+        width: 270px;
+        padding-left: 249px;
+        padding-right: 249px;
+        padding-top: 34px; 
+    }
+
+    .header__title {
+        width: 720px;
+        padding-left: 24px;
+        padding-right: 24px;
+       padding-top: 90px;
+      
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 900;
+       font-size: 96px;
+       line-height: 100px;
+       text-align: center;
+       color: #FFFFFF; /* PASSA PARA OUTRO CSS?? IGUAL A 1280??*/
+    
+    }
+    
+    .header__subtitle {
+        width: 720px;
+        padding-left: 24px;
+        padding-right: 24px;
+       padding-top: 99px;
+       text-align: center;
+   
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 30px;
+       line-height: 36px;
+       text-align: center;
+       color: #FFFFFF; /* PASSA PARA OUTRO CSS??*/
+    }
+
+    .header__image {
+        width: 768px;
+        /* padding-left: 148px;
+        padding-right: 148px; */
+        padding-top: 69px;
+        filter: grayscale(1);
+    }
+}
+
+
+@media (min-width: 320px)  and (max-width: 767px){
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px; 
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px; 
+    }
+
+    .header__title {
+        width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 50.15px;
+      
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 900;
+       font-size: 40px;
+       line-height: 44px;
+       text-align: center;
+       color: #FFFFFF; /* PASSA PARA OUTRO CSS??*/
+    
+    } 
+
+    .header__subtitle {
+        width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+       padding-top: 60px;
+       text-align: center;
+   
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 20px;
+       text-align: center;
+       color: #FFFFFF; /* PASSA PARA OUTRO CSS??*/
+
+    }
+
+    .header__image {
+        width: 320px;
+        /* padding-left: 148px;
+        padding-right: 148px; */
+        padding-top: 40px;
+        filter: grayscale(1);
+    }
+}

@@ -1,0 +1,234 @@
+.cover {
+display:flex;
+flex-direction: column;
+align-items: center;
+background: rgba(0, 0, 0, 0.3) url("/images/cover/cover-image-min.svg");
+background-blend-mode:overlay;
+/* background-size: cover; */
+background-position:center;    
+background-repeat: no-repeat;
+background-size: cover;
+/* background-position:; */
+width: 1184px;
+height: 740px;
+margin-left: 48px;
+margin-right: 48px;
+/* padding-bottom: 92px; */
+/* opacity: 0.7; */
+}
+
+
+.cover__container {
+display: flex;
+flex-direction: column;
+}
+
+.cover:hover{
+    background-color: rgba(0,0,0,0.6);
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+.cover__title {
+width: 656px;
+/* height: 76px; */
+padding-top: 243px;
+padding-left: 264px;
+padding-right: 264px;
+padding-bottom: 32px;
+/* z-index: 1; */
+/* opacity: 2; */
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+text-align: center;
+color: #FFFDFD;
+}
+
+.cover__texts {
+width: 280px;
+height: 66px;
+padding-left: 452px;
+padding-right: 452px;
+padding-bottom: 32px;    
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.cover__button {
+display: flex;
+padding: 13px 20px;
+margin-left: 496px;
+margin-right: 496px;
+border-radius: 4px;
+background: #0278FE;
+}
+
+.cover__button:hover{
+    cursor: pointer;
+    background-color: #0063D2;
+}
+
+.button__text {
+width: 151px;
+
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+
+color: #FFF;
+}
+
+
+
+@media (min-width: 768px)  and (max-width: 1279px) {
+
+    .cover {
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3) url("/images/cover/cover-image-min.svg");
+    background-blend-mode:overlay;
+    background-size: auto;
+    background-position-x: 60%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width: 768px;
+    height: 746px;
+    /* padding-bottom: 88px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .cover__title {
+    width: 656px;
+    padding-top: 246px; 
+    padding-bottom: 32px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    color: #FFFDFD;
+    }
+
+    .cover__texts {
+    width: 280px;
+                    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+    .cover__button {
+    display: flex;
+    padding: 13px 20px;
+    margin-left: 496px;
+    margin-right: 496px;
+    border-radius: 4px; 
+    background: #0278FE;
+    }
+
+    .button__text {
+    width: 151px;
+            
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;            
+    color: #FFF;
+    }
+
+}
+
+
+@media (min-width: 320px)  and (max-width: 767px) { 
+
+    .cover {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3) url("/images/cover/cover-image-min.svg");
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 75%;
+    background-position-y: 0%;
+    width: 320px;
+    height: 254px;
+    /* padding-bottom: 64px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .cover__title {
+    /* width: 288px;    */
+    padding-top: 46px;
+    /* padding-left: 16px; 
+    padding-right: 16px; */
+    padding-bottom: 16px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFDFD;
+    }
+
+    .cover__texts {
+    width: 280px;
+    height: 44px;
+    padding-bottom: 16px;  
+        
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+    .cover__button {
+    display: flex;
+    padding: 13px 20px;
+    margin-left: 496px;
+    margin-right: 496px;
+    /* margin-top: 16px; */
+    border-radius: 4px; 
+    background: #0278FE;
+    }
+    
+    .button__text {
+    width: 151px;
+                
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;            
+    color: #FFF;
+    }
+   
+}
